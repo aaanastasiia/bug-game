@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>Find Bag!</title>
+</head>
+<body class="container">
+    <div id="content">
+        <header class="header">
+            <t1 class="header__title">Выберите уровень сложности:</t1>
+            <t2 class="header__subtitle"><br>Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт.</t2>
+        </header>
+        <main class="main" id="main">
+            <div class="main__levels">
+                    <input type="radio" name="level" value="simple" id="simple" class="level__checked" checked>
+                    <label for="simple" class="level__name">Простой</label>
+                    <input type="radio" name="level" value="middle" id="middle" class="level__checked">
+                    <label for="middle" class="level__name">Средний</label>
+                    <input type="radio" name="level" value="hard" id="hard" class="level__checked">
+                    <label for="hard" class="level__name">Сложный</label>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__button">
+                <button class="button" id="button__start">Начать игру</button>
+            </div>
+            <div class="footer__img">
+                <img class="card__left" src="img/card-left.png" alt="card">
+                <img class="card__right" src="img/card-right.png" alt="card">
+            </div>       
+        </footer>
+    </div>
+    <script type="text/javascript" src="./script.js" charset="utf-8"></script>
+</body>
+</html>

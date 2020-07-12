@@ -1,0 +1,155 @@
+@media (max-width: 1300px) {
+    .container {
+        min-width: 1300px;
+    }
+    .middle { 
+        width: 50%;
+    }
+
+    .hard {
+        width: 76%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        min-width: 1100px;
+    }
+
+    .simple {
+        width: 60%;
+    }
+
+    .hard {
+        width: 87%;
+    }
+
+    .footer__img {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        min-width: 1000px;
+    }
+
+    .cards {
+        height: 70%;
+    }
+
+    .simple, .middle {
+        width: 60%;
+    }
+
+    .footer__img {
+        display: none;
+    }
+
+    .footer__button {
+        margin-left: 90px;
+    }
+
+    .hard {
+        width: 83%;
+    }
+
+    .hard .card__wrap {
+        width: 140px;
+        height: 225px;
+    }
+
+    .hard .img {
+        width: 146px;
+        height: 232px;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        min-width: 760px;
+        max-height: 900px;
+    }
+
+    .header {
+        padding-top: 50px;
+    }
+
+    .main__levels {
+        margin-left: 90px;
+    }
+
+    .simple {
+        width: 70%;
+    }
+
+    .hard {
+        width: 90%;
+        height: 90%;
+    }
+
+    .middle {
+        width: 60%;
+    }
+
+    .card__wrap, .hard .card__wrap {
+        width: 120px;
+        height: 205px;
+    }
+
+    .img, .hard .img {
+        width: 130px;
+        height: 215px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        min-width: 500px;
+    }
+
+    .header {
+        padding: 50px 30px 40px 50px;
+    }
+
+    .main {
+        padding-bottom: 90px;
+    }
+
+    .main__levels {
+        margin-left: 50px;
+    }
+
+    .footer__button {
+        margin-left: 60px;
+    }
+
+    .cards {
+        margin-top: 100px;
+    }
+
+    .simple {
+        height: 40%;
+        width: 55%;
+    }
+
+    .card__wrap, .hard .card__wrap {
+        width: 72px;
+        height: 112px;
+    }
+
+    .img, .hard .img {
+        width: 80px;
+        height: 120px;
+    }
+
+    .middle {
+        height: 60%;
+        width: 55%;
+    }
+
+    .hard {
+        width: 40%;
+        height: 110%;
+    }
+}
