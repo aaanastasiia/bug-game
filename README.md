@@ -1,4 +1,4 @@
-# h1 Game "Find Bug"
+# Game "Find Bug"
 ---
 Final JS project at Web Hero School.
 
